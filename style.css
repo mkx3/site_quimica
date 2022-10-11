@@ -1,0 +1,57 @@
+* {
+  width: 100%;
+}
+
+table,
+th,
+td,
+tr {
+  width: 100%;
+}
+
+.imgs {
+  margin: 0 auto;
+  width: 20%;
+}
+
+.voltar {
+  width: 3%;
+  float: left;
+}
+
+#polimeros {
+  margin: 0 auto;
+  width: 70%;
+  background-color: rgb(232, 232, 232);
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+td {
+  text-align: center;
+}
+
+th {
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+th,
+td {
+  width: 20%;
+}
+
+body {
+  text-align: center;
+  background-color: #eee;
+}
+
+img {
+  transition: 0.3s all;
+  width: 70%;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
